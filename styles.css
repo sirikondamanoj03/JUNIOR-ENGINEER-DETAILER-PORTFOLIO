@@ -506,19 +506,19 @@ img {
 
 
 
-/*===== PROJECTS =====*/
-.projects_container {
+/*===== CERTIFICATIONS =====*/
+.certifications_container {
     justify-content: center;
     row-gap: 2rem;
 }
 
-.projects_img {
+.certifications_img {
     position: relative;
     overflow: hidden;
     border-radius: .5rem;
 }
 
-.projects_data {
+.certifications_data {
     position: absolute;
     bottom: -100%;
     width: 100%;
@@ -532,7 +532,7 @@ img {
     transition: .3s;
 }
 
-.projects_link {
+.certifications_link {
     display: inline-flex;
     font-size: 1.5rem;
     background-color: var(--first-color-lighten);
@@ -542,12 +542,12 @@ img {
     margin-bottom: var(--mb-2);
 }
 
-.projects_title {
+.certifications_title {
     font-size: var(--h2-font-size);
     color: var(--first-color-lighten);
 }
 
-.projects_img:hover .projects_data {
+.certifications_img:hover .certifications_data {
     bottom: 0;
 }
 
@@ -652,7 +652,7 @@ img {
 
     .about_container,
     .skills_container,
-    .projects_container,
+    .certifications_container,
     .contact_container,
     .contact_inputs {
         grid-template-columns: repeat(2, 1fr);
